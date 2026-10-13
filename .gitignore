@@ -1,0 +1,14 @@
+# 1. exe, bin, build/
+*.exe
+*.bin
+build/
+
+# 2. .env*
+.env*
+
+# 3. tmp везде
+*.tmp
+
+# 4. логи игнорируем, КРОМЕ audit.log
+*.log
+!logs/audit.log
